@@ -1,0 +1,15 @@
+>>> python3
+>>> import numpy as np
+>>> import pandas as pd
+>>> df1=pd.read_csv("edis_20170930_postcode.csv")
+>>> df2=pd.read_csv("edis_20180930_postcode.csv")
+>>> df3=pd.read_csv("edis_20190930_postcode.csv")
+>>> df4=pd.read_csv("edis_20200930_postcode.csv")
+>>> df5=pd.read_csv("edis_20210831_postcode.csv")
+>>> df1["Date"]="30/09/2017"
+>>> df2["Date"]="30/09/2018"
+>>> df3["Date"]="30/09/2019"
+>>> df4["Date"]="30/09/2020"
+>>> df5["Date"]="31/08/2021"
+>>> pd.concat([df1,df2,df3,df4,df5]).to_excel("Concatenated_data.xlsx",index=False)
+>>> df=pd.concat([df1,df2,df3,df4,df5])
