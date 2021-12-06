@@ -26,7 +26,7 @@ Presentation Slides Deck: 'INFS5715_TourismEconomy_Final.rar'
 ☞1.3 Subfolder: Combined_Drought_Indicator_Visualisation folder refers to the slides 14 and 16 - 18
 
   1.3.1 'runpie.py' in the Demo folder together with'Concatenated_data.xlsx' and 'South Coast CDI.csv' are used to generate the 'Hunter_Pie_Chart', 'Murray_Pie_Chart', 'South_Coast_Pie_Chart' and 'runpie2.py' demo with 'Concatenated_data.xlsx' are used to generate 'Riverina_Pie_Chart', 'North_Coast_Pie Chart' and 'Greater_Sydney_Pie_Chart  in the slide 14
-  (⭐️⭐️⭐️Dear Blair, pleas refer to the comments on the demo( runpie.py and runpie2.py) to adjust the local path to save the html file)
+  (⭐️⭐️⭐️Dear User, pleas refer to the comments on the demo( runpie.py and runpie2.py) to adjust the local path to save the html file)
   
 
   1.3.2 'Hunter_Chart.py' and 'Concatenated_data.xlsx' are used to generate the 'CDI_hunter.png' in the slide 16
